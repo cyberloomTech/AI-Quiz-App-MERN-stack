@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes brilliant {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%) rotate(-30deg);
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(80%) rotate(-30deg);
+  }
+}
+
+.animate-brilliant {
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 200%;
+  height: 50%;
+  background: linear-gradient(120deg,
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.2));
+  background-size: 200% 200%;
+  animation: brilliant 1.5s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.not-overflow {
+  overflow: hidden;
+}
