@@ -33,3 +33,5 @@ npm run dev
 
 Runs the backend in the development mode.<br>
 Working on [http://localhost:5173](http://localhost:5173) 
+
+Enjoy it!
