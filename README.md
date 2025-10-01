@@ -1,4 +1,6 @@
-## Start Backend
+# AI Quiz App
+
+## First Start Backend
 
 ### To intsall all the backend required dependecies
 
@@ -16,7 +18,7 @@ npm start
 Runs the backend in the development mode.<br>
 Working on [http://localhost:3000](http://localhost:3000) 
 
-## Start Frontend
+## Second Start Frontend
 
 ### To intsall all the frontend required dependecies
 
@@ -33,3 +35,5 @@ npm run dev
 
 Runs the backend in the development mode.<br>
 Working on [http://localhost:5173](http://localhost:5173) 
+
+Enjoy it!
