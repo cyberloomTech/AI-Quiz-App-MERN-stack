@@ -1,3 +1,5 @@
+# AI Quiz App
+
 ## Start Backend
 
 ### To intsall all the backend required dependecies
